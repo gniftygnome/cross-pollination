@@ -1,0 +1,19 @@
+{
+  "modmenu.descriptionTranslation.cross-pollination": "GniftyGnome's opinionated cross-mod functionality",
+  "text.autoconfig.cross-pollination.title": "Cross-Pollination: Configuration",
+
+  "text.autoconfig.cross-pollination.category.composter":  "Composter",
+  "text.autoconfig.cross-pollination.option.compostBamboo.@PrefixText": "You must restart Minecraft after changing settings below.",
+  "text.autoconfig.cross-pollination.option.compostBamboo": "Allow composting bamboo?",
+  "text.autoconfig.cross-pollination.option.compostFish": "Allow composting various fish?",
+  "text.autoconfig.cross-pollination.option.compostLeather": "Allow composting leather items?",
+  "text.autoconfig.cross-pollination.option.compostPotatoes": "Allow composting poisonous potatoes?",
+
+  "text.autoconfig.cross-pollination.category.recipes": "Recipes",
+  "text.autoconfig.cross-pollination.option.craftableGildedBlackstone.@PrefixText": "You must restart Minecraft after changing settings below.",
+  "text.autoconfig.cross-pollination.option.craftableGildedBlackstone": "Craft gilded blackstone?",
+  "text.autoconfig.cross-pollination.option.craftableSaddle": "Craft saddles?",
+  "text.autoconfig.cross-pollination.option.dirtToGrassBlock": "Craft grass blocks from dirt and wheat seeds?",
+  "text.autoconfig.cross-pollination.option.mossCarpetToBlocks": "Craft moss blocks from moss carpet and bone meal?",
+  "text.autoconfig.cross-pollination.option.snowToWater": "Smelt powder snow buckets into water buckets?"
+}

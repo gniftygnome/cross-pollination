@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "cross-pollination",
+  "version": "${version}",
+  "name": "Cross Pollination",
+  "description": "Opinionated cross-mod functionality",
+  "authors": [
+    "GniftyGnome"
+  ],
+  "contact": {
+    "website": "http://www.gnomecraft.net/",
+    "repo": "https://github.com/gniftygnome/CrossPollination"
+  },
+  "license": "MIT",
+  "icon": "assets/crosspollination/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.gnomecraft.crosspollination.CrossPollinationClient"
+    ],
+    "main": [
+      "net.gnomecraft.crosspollination.CrossPollination"
+    ],
+    "fabric-datagen": [
+      "net.gnomecraft.crosspollination.data.CrossPollinationDatagen"
+    ],
+    "modmenu": [
+      "net.gnomecraft.crosspollination.config.CrossPollinationModMenuApiImpl"
+    ]
+  },
+  "accessWidener": "cross-pollination.accesswidener",
+  "mixins": [
+    "CrossPollination.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": ">=1.19"
+  },
+  "breaks": {
+    "skys-the-limit": "*"
+  }
+}
